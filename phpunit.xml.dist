@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertWarningsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertErrorsToExceptions="true"
+         stopOnFailure="false"
+>
+
+  <testsuites>
+    <testsuite name="Braskit\Tripcode Test Suite">
+      <directory suffix="Test.php">tests/</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">./src/</directory>
+    </whitelist>
+  </filter>
+</phpunit>

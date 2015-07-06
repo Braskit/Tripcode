@@ -1,0 +1,13 @@
+# Environmental stuff
+.DS_Store
+thumbs.db
+._*
+*~
+*.sw?
+*.bak
+.htaccess
+
+# Composer
+/vendor/
+/composer.phar
+/composer.lock

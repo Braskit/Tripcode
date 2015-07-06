@@ -1,0 +1,27 @@
+{
+    "name": "braskit/tripcode",
+    "description": "Tripcode tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Usrs",
+            "email": "frankusrs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.4|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Braskit\\Tripcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Braskit\\Tripcode\\Tests\\": "tests/"
+        }
+    }
+}
